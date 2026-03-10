@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab03task04</title>
+</head>
+<body>
+    <h1>Travel Reservation Form</h1>
+    <h2>* denotes mandatory</h2>
+
+    <form name="travelReservation" action="#" method="post">
+        <p>
+            <label for="fullName">Full Name*:</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="First & last Name" required>
+        </p>
+        
+        <p>
+            <label for="email">Email Address*:</label><br>
+            <input type="email" id="email" name="email" placeholder="EMAIL_ADDRESS" required>
+        </p>
+        
+        <p>
+            <label for="tourPackage">Select Tour Package*:</label><br>
+            <select id="tourPackage" name="tourPackage" required>
+                <option value="mar">Mardan</option>
+                <option value="swt">Swat</option>
+                <option value="pes">Peshawar</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="arrivalDate">Arrival Date*:</label><br>
+            <input type="date" id="arrivalDate" name="arrivalDate" required>
+        </p>
+
+        <p>
+            <label for="numPersons">Number of Persons*:</label><br>
+            <input type="number" id="numPersons" name="numPersons" min="1" max="20" required>
+        </p>
+
+        <p>
+            <label for="avail">What you want to avail*:</label><br>
+            <input type="checkbox" id="termsBoarding" name="termsBoarding">
+            <label for="termsBoarding">Boarding</label><br>
+            <input type="checkbox" id="termsFooding" name="termsFooding">
+            <label for="termsFooding">Fooding</label><br>
+            <input type="checkbox" id="termsSeeing" name="termsSeeing">
+            <label for="termsSeeing">Sight Seeing</label>
+        </p>
+        
+        <p>
+            <label for="discountCode">Discount Coupon Code:</label><br>
+            <input type="text" id="discountCode" name="discountCode">
+        </p>
+        
+        <p>
+            <label for="termsagree">Terms and conditions*:</label><br>
+            <input type="checkbox" id="termsagree" name="termsagree" required>
+            <label for="termsagree">I agree</label>
+        </p>
+
+        <p>
+            <button type="submit">Complete Reservation</button>
+           
+        </p>
+    </form>
+    
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Rz6SMgKrSYE?si=GfkXC_BJHNJLz6S4" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+</body>
+</html>
